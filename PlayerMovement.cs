@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 2;
     public Rigidbody rb; 
     float horizontalInput; 
-    public float horizontalMultiplier = 1;
+    public float horizontalMultiplier;
     
     private void FixedUpdate(){
     
